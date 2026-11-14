@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
   <Project Path="ConsoleApp1/ConsoleApp1.csproj" Id="0796901f-4517-4ce3-9315-c32295d32218" />
   <Project Path="ConsoleApp2/ConsoleApp2.csproj" />
   <Project Path="DBRepository/DBRepository.csproj" Id="a1efe4dc-0b78-48f8-9628-a8a8681125c3" />

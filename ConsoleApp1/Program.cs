@@ -11,10 +11,9 @@ var test = new List<Student>()
     new Student() { Id = 7, Name = "Klode Mark", Mark = 90, SchoolId = 1, Tests = new List<Test>() { new Test() { Id = 13 }, new Test() { Id = 14 } } }
 };
 
+int i = 0;
 
 var result2 = test.SelectMany(std => std.Tests).ToList();
 var result = test.Select(std => std.Tests).ToList();
 var result3 = test.Select(std => std.Id).Where(std => std >= 4).OrderBy(std => std).ToList();
 var result4 = test.Where(std => std.Id >= 4).Select(std => std.Mark).OrderByDescending(std => std).ToList();
-
-int i = 0;
