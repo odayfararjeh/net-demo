@@ -5,5 +5,6 @@
         public int Id { get; set; }
         public string Name { get; set; }
         public List<Student> Students { get; set; }//collection of students in the school
+        public int SchoolState { get; set; }
     }
 }
